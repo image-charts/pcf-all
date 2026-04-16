@@ -1,0 +1,57 @@
+{
+  "name": "@image-charts/pcf-all",
+  "version": "1.0.0",
+  "description": "Image-Charts Complete PCF Component Suite for Microsoft Power Apps - All chart types included",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "keywords": [
+    "pcf",
+    "powerapps",
+    "power-apps",
+    "power-platform",
+    "image-charts",
+    "imagecharts",
+    "chart",
+    "qrcode",
+    "bar-chart",
+    "pie-chart",
+    "line-chart",
+    "doughnut",
+    "dataverse",
+    "dynamics365",
+    "canvas-app",
+    "component-framework"
+  ],
+  "author": "Image-Charts <support@image-charts.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/image-charts/pcf-all.git"
+  },
+  "bugs": {
+    "url": "https://github.com/image-charts/pcf-all/issues"
+  },
+  "homepage": "https://documentation.image-charts.com/integrations/power-apps/",
+  "files": [
+    "solution/*.zip",
+    "scripts/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@image-charts/pcf-qrcode": "github:image-charts/pcf-qrcode",
+    "@image-charts/pcf-barchart": "github:image-charts/pcf-barchart",
+    "@image-charts/pcf-piechart": "github:image-charts/pcf-piechart",
+    "@image-charts/pcf-linechart": "github:image-charts/pcf-linechart",
+    "@image-charts/pcf-doughnut": "github:image-charts/pcf-doughnut",
+    "@image-charts/pcf-generic": "github:image-charts/pcf-generic"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
