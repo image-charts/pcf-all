@@ -2,7 +2,7 @@
 
 All notable changes to @image-charts/pcf-all will be documented in this file.
 
-## [1.0.0] - 2026-04-27
+## [1.0.0] - 2026-04-28
 
 ### Added
 - Initial release of the Image-Charts PCF Complete Suite
