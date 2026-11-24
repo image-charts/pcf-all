@@ -1,6 +1,6 @@
 {
   "name": "@image-charts/pcf-all",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Image-Charts Complete PCF Component Suite for Microsoft Power Apps - All chart types included",
   "scripts": {
     "postinstall": "node scripts/postinstall.js"
